@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <title>徐瑀柔 Zoe Hsu — 行銷主任履歷 2026</title>
+  <meta name="description" content="徐瑀柔 Zoe Hsu 行銷履歷，橫跨電商平台營運、內容行銷、CRM 與數位廣告，15年以上實戰經驗。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ── RESET & BASE ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --red:    #e8392c;
+      --black:  #111111;
+      --gray1:  #1a1a1a;
+      --gray2:  #3d3d3d;
+      --gray3:  #888;
+      --gray4:  #d0d0d0;
+      --gray5:  #f4f4f4;
+      --white:  #ffffff;
+      --font-tc: 'Noto Sans TC', sans-serif;
+      --font-serif: 'Noto Serif TC', serif;
+    }
+
+    @media print {
+      body { margin: 0; padding: 0; }
+      .resume-wrap { box-shadow: none !important; }
+    }
+
+    body {
+      background: #e8e8e8;
+      font-family: var(--font-tc);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    /* ── WRAPPER ── */
+    .resume-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--white);
+      box-shadow: 0 8px 48px rgba(0,0,0,0.18);
+    }
+
+    /* ═══════════════════════════════
+       HEADER — 黑底大標區
+    ═══════════════════════════════ */
+    .header {
+      background: var(--black);
+      padding: 42px 48px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      /* 裝飾斜線 */
+      content: '';
+      position: absolute;
+      top: -40px; right: -40px;
+      width: 220px; height: 220px;
+      border: 30px solid rgba(255,59,48,0.12);
+      border-radius: 50%;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    /* 姓名 */
+    .name-block {}
+    .name-kanji {
+      font-family: var(--font-tc);
+      font-size: 58px;
+      font-weight: 900;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: 0.08em;
+      color: var(--white);
+    }
+    .name-kanji span {
+      color: var(--red);
+    }
+    .name-en {
+      font-family: var(--font-tc);
+      font-size: 11px;
+      font-weight: 400;
+      letter-spacing: 0.45em;
+      color: var(--gray3);
+      margin-top: 10px;
+    }
+
+    /* 聯絡 */
+    .contact-block {
+      text-align: right;
+    }
+    .contact-block a,
+    .contact-block span {
+      display: block;
+      font-family: var(--font-tc);
+      font-size: 11px;
+      font-weight: 300;
+      letter-spacing: 0.08em;
+      color: var(--gray3);
+      text-decoration: none;
+      line-height: 2;
+    }
+    .contact-block a:hover { color: var(--red); }
+
+    /* Tagline 橫帶 */
+    .tagline {
+      margin-top: 28px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 12px 0;
+      display: flex;
+      gap: 0;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .tag-item {
+      font-family: var(--font-tc);
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 0.16em;
+      color: var(--gray3);
+      padding: 0 14px;
+      position: relative;
+    }
+    .tag-item + .tag-item::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 50%;
+      transform: translateY(-50%);
+      width: 3px; height: 3px;
+      border-radius: 50%;
+      background: var(--red);
+    }
+    .tag-item:first-child { padding-left: 0; }
+
+    /* ═══════════════════════════════
+       BODY — 雙欄
+    ═══════════════════════════════ */
+    .body {
+      display: grid;
+      grid-template-columns: 210px 1fr;
+    }
+
+    /* ── LEFT COL ── */
+    .left-col {
+      background: var(--gray5);
+      padding: 32px 24px;
+      border-right: 1px solid var(--gray4);
+    }
+
+    .left-section {
+      margin-bottom: 30px;
+    }
+
+    /* Section label — 左欄 */
+    .sec-label {
+      font-family: var(--font-tc);
+      font-size: 8.5px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      color: var(--white);
+      background: var(--black);
+      display: inline-block;
+      padding: 3px 10px;
+      margin-bottom: 14px;
+    }
+    .sec-label.red {
+      background: var(--red);
+    }
+
+    .profile-text {
+      font-size: 11px;
+      font-weight: 300;
+      color: var(--gray2);
+      line-height: 1.9;
+    }
+    .profile-text p + p { margin-top: 10px; }
+
+    /* Skills */
+    .skill-group { margin-bottom: 12px; }
+    .skill-cat {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      color: var(--black);
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .skill-cat::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--gray4);
+    }
+    .skill-tags {
+      font-size: 10px;
+      font-weight: 300;
+      color: var(--gray2);
+      line-height: 1.8;
+    }
+
+    /* Education */
+    .edu-school {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--black);
+      margin-bottom: 2px;
+    }
+    .edu-dept {
+      font-size: 10px;
+      font-weight: 300;
+      color: var(--gray3);
+      font-family: var(--font-en);
+    }
+
+    /* Info grid */
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .info-table td {
+      font-size: 10px;
+      font-weight: 300;
+      color: var(--gray2);
+      padding: 3px 0;
+      line-height: 1.6;
+      vertical-align: top;
+    }
+    .info-table td:first-child {
+      color: var(--gray3);
+      width: 60px;
+      font-size: 9px;
+      letter-spacing: 0.05em;
+    }
+
+    /* ── RIGHT COL ── */
+    .right-col {
+      padding: 32px 36px;
+    }
+
+    /* Section label — 右欄 */
+    .sec-label-r {
+      font-family: var(--font-tc);
+      font-size: 8.5px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      color: var(--white);
+      background: var(--red);
+      display: inline-block;
+      padding: 3px 10px;
+      margin-bottom: 18px;
+    }
+
+    /* 工作條目 */
+    .job {
+      margin-bottom: 28px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--gray5);
+    }
+    .job:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 6px;
+    }
+    .job-company {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--black);
+      letter-spacing: 0.03em;
+      line-height: 1.3;
+    }
+    .job-period {
+      font-family: var(--font-tc);
+      font-size: 10px;
+      font-weight: 300;
+      color: var(--red);
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .job-title {
+      font-size: 10px;
+      font-weight: 400;
+      color: var(--gray3);
+      letter-spacing: 0.1em;
+      margin-bottom: 14px;
+    }
+
+    /* 子區塊標題 */
+    .sub-label {
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: var(--black);
+      margin: 12px 0 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .sub-label::before {
+      content: '■';
+      color: var(--red);
+      font-size: 7px;
+    }
+    .sub-label::after {
+      content: '';
+      flex: 1;
+      height: 0.5px;
+      background: var(--gray4);
+    }
+
+    /* Bullet list */
+    .blist {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .blist li {
+      font-size: 10.5px;
+      font-weight: 300;
+      color: var(--gray2);
+      line-height: 1.85;
+      padding-left: 14px;
+      position: relative;
+      margin-bottom: 1px;
+    }
+    .blist li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--gray4);
+      font-size: 9px;
+      top: 1px;
+    }
+
+    /* 數字強調 */
+    .num {
+      font-family: var(--font-en);
+      font-weight: 700;
+      color: var(--red);
+    }
+
+    /* Metric chips */
+    .metric-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 10px 0 4px;
+    }
+    .metric-chip {
+      background: var(--black);
+      color: var(--white);
+      padding: 4px 10px;
+      font-size: 9.5px;
+      font-family: var(--font-tc);
+      font-weight: 300;
+      letter-spacing: 0.05em;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .metric-chip .n {
+      font-weight: 700;
+      color: var(--red);
+      font-size: 12px;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="resume-wrap">
+
+  <!-- ╔══════════════════ HEADER ══════════════════╗ -->
+  <header class="header">
+    <div class="header-top">
+      <div class="name-block">
+        <div class="name-kanji">徐<span>瑀</span>柔</div>
+        <div class="name-en">ZOE HSU</div>
+      </div>
+      <div class="contact-block">
+        <a href="mailto:piyoya55@hotmail.com">piyoya55@hotmail.com</a>
+        <span>0975-215-255</span>
+        <span>新北市板橋區</span>
+      </div>
+    </div>
+    <nav class="tagline">
+      <span class="tag-item">行銷策略</span>
+      <span class="tag-item">平台營運</span>
+      <span class="tag-item">CRM 會員經營</span>
+      <span class="tag-item">內容行銷</span>
+      <span class="tag-item">數位廣告</span>
+      <span class="tag-item">自動化流程</span>
+    </nav>
+  </header>
+
+  <!-- ╔══════════════════ BODY ══════════════════╗ -->
+  <div class="body">
+
+    <!-- ── 左欄 ── -->
+    <aside class="left-col">
+
+      <!-- Profile -->
+      <section class="left-section">
+        <div class="sec-label">Profile</div>
+        <div class="profile-text">
+          <p>橫跨電商平台營運、內容行銷、CRM 與數位廣告投放的複合型行銷人，15 年以上實戰經驗。</p>
+          <p>擅長一人建立完整行銷生態系，習慣用數字說話，喜歡把複雜的流程變得乾淨可持續。具備 AI 工具與自動化流程導入能力。</p>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="left-section">
+        <div class="sec-label">Skills</div>
+
+        <div class="skill-group">
+          <div class="skill-cat">平台營運</div>
+          <div class="skill-tags">活動企劃 · 功能優化<br>SOP 制定 · 服務測試</div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-cat">會員經營</div>
+          <div class="skill-tags">CRM 分眾 · 用戶留存<br>LINE OA · 生命週期設計</div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-cat">數位行銷</div>
+          <div class="skill-tags">Google Ads · SEO · KOL<br>口碑行銷 · AdSense</div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-cat">數據分析</div>
+          <div class="skill-tags">GA4 · GSC · MAAC<br>A/B Testing · ROI 追蹤</div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-cat">工具</div>
+          <div class="skill-tags">Figma · Sanity CMS<br>Claude AI · Python 自動化<br>Google Workspace</div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="left-section">
+        <div class="sec-label">Education</div>
+        <div class="edu-school">東吳大學</div>
+        <div class="edu-dept">法律學系｜2006 — 2011</div>
+      </section>
+
+      <!-- Info -->
+      <section class="left-section">
+        <div class="sec-label red">Info</div>
+        <table class="info-table">
+          <tr><td>年資</td><td>15+ 年</td></tr>
+          <tr><td>到職</td><td>一個月內</td></tr>
+          <tr><td>遠端</td><td>有意願</td></tr>
+          <tr><td>待遇</td><td>面議</td></tr>
+        </table>
+      </section>
+
+    </aside>
+
+    <!-- ── 右欄 ── -->
+    <main class="right-col">
+      <div class="sec-label-r">Experience</div>
+
+      <!-- 購物橘子 -->
+      <article class="job">
+        <div class="job-header">
+          <div class="job-company">購物橘子 ／ 有閑購物　Gamania 集團</div>
+          <div class="job-period">2022.05 — 2026.06</div>
+        </div>
+        <div class="job-title">主任　｜　行銷部 → 營運長室</div>
+
+        <div class="sub-label">ACG 情報橘　內容行銷引擎</div>
+        <ul class="blist">
+          <li>獨立統籌 ACG × 3C 部落格策略、寫手管理、AI 協作產文，全年累積 <span class="num">850 篇</span>文章</li>
+          <li>建立每日選題自動化：爬蟲 + Gemini AI 評分 + Slack 通知，每日節省 <span class="num">2 小時</span>人工</li>
+          <li>串接 GA4 / GSC / AdSense / MAAC 數據自動化，全年節省超過 <span class="num">500 小時</span>人工</li>
+          <li>導入 AdSense 完成內容商業化驗證，規劃 Sales Kit 開拓商務合作</li>
+        </ul>
+        <div class="metric-row">
+          <div class="metric-chip">年活躍使用者&nbsp;<span class="n">282 萬</span></div>
+          <div class="metric-chip">搜尋曝光&nbsp;<span class="n">2,724 萬</span></div>
+          <div class="metric-chip">自然點擊&nbsp;<span class="n">62.2 萬</span></div>
+        </div>
+
+        <div class="sub-label">全站活動 ／ 用戶經營</div>
+        <ul class="blist">
+          <li>負責全站行銷活動頁規劃，主會場 / 簽到簿 / 主題頁完整串聯</li>
+          <li>首創簽到簿加碼玩法，養成用戶黏著習慣</li>
+          <li>活動頁使用者 YoY <span class="num">+12%</span>，工作階段 YoY <span class="num">+73%</span></li>
+        </ul>
+
+        <div class="sub-label">CRM ／ LINE OA 分眾</div>
+        <ul class="blist">
+          <li>規劃 LINE OA 分眾標籤結構與精準推播策略</li>
+          <li>Q4 LINE 營收較 1–9 月成長 <span class="num">140%</span>，花費同時下降 <span class="num">41%</span>，CTR <span class="num">9.7%</span></li>
+        </ul>
+
+        <div class="sub-label">Google Ads 廣告投放</div>
+        <ul class="blist">
+          <li>Q4 投放結構重整：CPA <span class="num">-77%</span>（282→64）、ROAS <span class="num">+199%</span>（11.6→34.7）</li>
+        </ul>
+
+        <div class="sub-label">KOL ／ 站內推薦模組</div>
+        <ul class="blist">
+          <li>全年完成 <span class="num">28 檔</span> KOL 品牌合作，影片觀看 <span class="num">297 萬</span>，CPM 較市場少 <span class="num">80%</span> 花費</li>
+          <li>導入 Insider Eureka 推薦模組，11 月單月帶入營收 <span class="num">145 萬元</span></li>
+        </ul>
+
+        <div class="sub-label">集團資源 ／ 線下活動</div>
+        <ul class="blist">
+          <li>串聯集團 NN 資源，月均使用者成長 <span class="num">71.7%</span></li>
+          <li>執行「我推的孩子光影展」、大巨蛋職棒攤位、g-eight 遊戲展等跨子公司合作</li>
+          <li>面試並管理 ACG 行銷實習生，建立工作交接 SOP</li>
+        </ul>
+      </article>
+
+      <!-- 露天 -->
+      <article class="job">
+        <div class="job-header">
+          <div class="job-company">露天拍賣　露天市集國際資訊</div>
+          <div class="job-period">2015.08 — 2022.04</div>
+        </div>
+        <div class="job-title">品類經營經理 → 客戶服務專員　｜　6 年 9 個月</div>
+
+        <div class="sub-label">品類經營（玩具 ／ 電玩）</div>
+        <ul class="blist">
+          <li>獨立負責玩具電玩品類全條線：業績、賣家關係、活動、廣告、流量</li>
+          <li>2021 年成交費 YoY <span class="num">+12%</span>，為公司新增收入 <span class="num">$440 萬</span>；TOP 賣家業績 <span class="num">+29%</span></li>
+          <li>雙 11 活動頁 PV <span class="num">13,125</span>，折扣碼 ROAS <span class="num">56%</span></li>
+          <li>代表部門參與全站跨部門專案：行銷活動、功能規劃、數據分析</li>
+        </ul>
+
+        <div class="sub-label">客戶服務</div>
+        <ul class="blist">
+          <li>處理客訴信件及電話客服，熟悉平台功能異常排查與跨部門通報流程</li>
+        </ul>
+      </article>
+
+      <!-- 商周 -->
+      <article class="job">
+        <div class="job-header">
+          <div class="job-company">商業週刊集團</div>
+          <div class="job-period">2012.08 — 2014.05</div>
+        </div>
+        <div class="job-title">行政總務</div>
+        <ul class="blist">
+          <li>協助新媒體及數位編輯部文章上稿、轉檔與上版；負責全公司行政帳務</li>
+        </ul>
+      </article>
+
+    </main>
+  </div><!-- /.body -->
+
+</div><!-- /.resume-wrap -->
+
+</body>
+</html>
