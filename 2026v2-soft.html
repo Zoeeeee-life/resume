@@ -170,6 +170,10 @@
       background: var(--mint2);
     }
 
+    .tag:nth-child(7) {
+      background: var(--yellow);
+    }
+
     /* ── BODY ── */
     .bd {
       position: relative;
@@ -419,6 +423,168 @@
 
     .mc .n {
       font-size: 11px;
+    }
+
+    /* ═══════════════════════════════
+       RESPONSIVE — 手機版
+    ═══════════════════════════════ */
+    @media (max-width: 768px) {
+      body {
+        padding: 0;
+        background: var(--cream);
+      }
+
+      .cv {
+        box-shadow: none;
+        border-radius: 0;
+      }
+
+      .cv::after {
+        display: none;
+      }
+
+      /* ── Header ── */
+      .hd {
+        padding: 28px 20px 0;
+      }
+
+      .hd-top {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+
+      .name-badge {
+        font-size: 26px;
+        padding: 6px 16px;
+        letter-spacing: 0.08em;
+      }
+
+      .contact {
+        text-align: left;
+        padding-top: 0;
+      }
+
+      .tagline {
+        gap: 5px;
+        padding-bottom: 20px;
+      }
+
+      /* ── Two-col → single col ── */
+      .bd {
+        grid-template-columns: 1fr;
+      }
+
+      .lc {
+        border-right: none;
+        border-bottom: 1.5px solid var(--border);
+        padding: 24px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 16px;
+        align-items: start;
+      }
+
+      /* Profile 滿寬 */
+      .lc .ls:nth-child(1) {
+        grid-column: 1 / -1;
+        padding-bottom: 14px;
+        margin-bottom: 4px;
+      }
+
+      /* Skills 全寬，內部再分兩欄 */
+      .lc .ls:nth-child(2) {
+        grid-column: 1 / -1;
+        margin-bottom: 4px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 12px;
+        align-items: start;
+      }
+
+      /* Skills 標題橫跨全寬（擐滿） */
+      .lc .ls:nth-child(2) .lbl {
+        grid-column: 1 / -1;
+      }
+
+      /* Education 左側 */
+      .lc .ls:nth-child(3) {
+        grid-column: 1;
+        margin-bottom: 0;
+      }
+
+      /* Info 右側 */
+      .lc .ls:nth-child(4) {
+        grid-column: 2;
+        margin-bottom: 0;
+      }
+
+      .rc {
+        padding: 24px 20px;
+      }
+
+      /* ── 職稱長字換行 ── */
+      .jti {
+        font-size: 9px;
+        line-height: 1.7;
+        word-break: keep-all;
+        white-space: normal;
+      }
+
+      /* ── Job header ── */
+      .jh {
+        flex-direction: column;
+        gap: 2px;
+      }
+
+      .jpe {
+        white-space: normal;
+      }
+
+      /* ── Metrics ── */
+      .mr {
+        flex-wrap: wrap;
+      }
+
+      .mc {
+        font-size: 9px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .name-badge {
+        font-size: 22px;
+        padding: 5px 14px;
+      }
+
+      .rlbl {
+        margin-bottom: 12px;
+      }
+
+      .job {
+        margin-bottom: 18px;
+        padding-bottom: 16px;
+      }
+
+      .bl li {
+        font-size: 10px;
+      }
+    }
+
+    @media print {
+      body {
+        padding: 0;
+        background: var(--cream);
+      }
+
+      .cv {
+        box-shadow: none !important;
+        max-width: 100%;
+      }
+
+      .bd {
+        grid-template-columns: 196px 1fr;
+      }
     }
   </style>
 </head>
